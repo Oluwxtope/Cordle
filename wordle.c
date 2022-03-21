@@ -135,8 +135,8 @@ bool valid_hard_guess(char *guesses[], char *results[], int num_guesses,
       assert(len == strlen(guesses[i]));
       assert(len == strlen(results[i]));
     }
+    assert(len == strlen(next_guess));
   }
-  assert(len == strlen(next_guess));
   
   for (int i = 0; i < num_guesses; ++i) {
     for (int ltr = 0; ltr < len; ++ltr) {
