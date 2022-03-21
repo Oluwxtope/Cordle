@@ -1,4 +1,7 @@
 # Cordle
 Wordle but with C!
 
-To play, run interactive.c and enjoy. More details to come...
+To play, navigate to Cordle directory in the terminal and type "./a.out". 
+Enjoy!
+
+**More details to come**
