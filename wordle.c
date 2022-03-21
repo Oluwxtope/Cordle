@@ -5,7 +5,6 @@
 #include <stdbool.h>
 #include <assert.h>
 #include <stdio.h>
-#include "cs136-trace.h"
 
 // see wordle.h
 bool evaluate_guess(const char *secret, const char *guess, char *result) {
