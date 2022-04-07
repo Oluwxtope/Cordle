@@ -1,13 +1,18 @@
 # Cordle
 <i> Wordle, but with C! </i>
 
+## Version
+1.0
+1.1: Added internet mode where you generate word by making API call (needs internet connection)
+
 ## Setup
 1. Navigate to the directory with Cordle source code files in terminal
-2. Enter `./a.out` to run the compiled file of Cordle
-3. Extra: To recompile after making any changes to the source code, run `gcc wordlist.c wordle.c interactive.c`
+2. To compile source code files, run `gcc wordlist.c wordle.c interactive.c`
+3. Enter `./a.out` in terminal to play Cordle
+4. P.S. Program doesn't run as is because of missing API key which I have hidden! To run, subscribe to Random Words API on rapidapi.com and insert your API key in line 100 of `interactive.c`. Or contact me :)
 
 ## Instructions
-1. Set up your game by picking a random number and difficulty level
+1. Set up your game by picking your mode and difficulty level
 2. Type in your 5-letter word guess
 3. If your guess is correct, YOU WIN!
 4. If your guess is incorrect, Cordle shows you the result of your guess:
@@ -19,4 +24,4 @@
 5. In hard mode, you cannot use letters not in the word in subsequent guesses. You also can't use a letter in the wrong spot in subsequent guesses. 
 
 ## Future Updates
-1. Generate words to guess by making API calls using the libcurl library, instead of a static list of words
+1. On hard using (a)pi mode, add verification of guesses by making spellcheck api call

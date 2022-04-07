@@ -1,2 +1,5 @@
 iotest-wordle.c
 .DS_Store
+test.c
+.vscode
+API.txt
