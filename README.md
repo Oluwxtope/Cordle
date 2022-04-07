@@ -7,7 +7,7 @@
 
 ## Setup
 1. Navigate to the directory with Cordle source code files in terminal
-2. To compile source code files, run `gcc wordlist.c wordle.c interactive.c`
+2. To compile source code files, run `gcc wordlist.c wordle.c interactive.c -lcurl`
 3. Enter `./a.out` in terminal to play Cordle
 4. P.S. Program doesn't run as is because of missing API key which I have hidden! To run, subscribe to Random Words API on rapidapi.com and insert your API key in line 100 of `interactive.c`. Or contact me :)
 
