@@ -5,6 +5,10 @@
 1.0  
 1.1: Added internet mode where you generate word by making API call (needs internet connection)  
 
+<br><br>
+![An example of a Cordle game](/images/screenshot.png)  
+*An example of a Cordle game*  
+
 ## Setup  
 1. Navigate to the directory with Cordle source code files in terminal  
 2. To compile source code files, run `gcc wordlist.c wordle.c interactive.c -lcurl`  
